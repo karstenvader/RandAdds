@@ -1,0 +1,26 @@
+{
+  "_fv": 5,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "vaultkeytex",
+    "customModelName": "Normal",
+    "name": "Ancient Vault Key",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Opens the Ancient Vault"
+    ],
+    "hasGlow": true
+  }
+}

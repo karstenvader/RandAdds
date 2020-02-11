@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vadersrandomadditions:blocks/obsidianbrick",
+    "up": "vadersrandomadditions:blocks/obsidianbrick",
+    "north": "vadersrandomadditions:blocks/obsidianbrick",
+    "east": "vadersrandomadditions:blocks/obsidianbrick",
+    "south": "vadersrandomadditions:blocks/obsidianbrick",
+    "west": "vadersrandomadditions:blocks/obsidianbrick",
+    "particle": "vadersrandomadditions:blocks/obsidianbrick"
+  }
+}

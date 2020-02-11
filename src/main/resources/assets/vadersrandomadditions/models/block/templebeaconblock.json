@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vadersrandomadditions:blocks/tempcore_vert",
+    "up": "vadersrandomadditions:blocks/tempcore_vert",
+    "north": "vadersrandomadditions:blocks/templecore",
+    "east": "vadersrandomadditions:blocks/templecore",
+    "south": "vadersrandomadditions:blocks/templecore",
+    "west": "vadersrandomadditions:blocks/templecore",
+    "particle": "vadersrandomadditions:blocks/tempcore_vert"
+  }
+}

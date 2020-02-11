@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vadersrandomadditions:blocks/vaultdoor",
+    "up": "vadersrandomadditions:blocks/vaultdoor",
+    "north": "vadersrandomadditions:blocks/vaultdoor",
+    "east": "vadersrandomadditions:blocks/vaultdoor",
+    "south": "vadersrandomadditions:blocks/vaultdoor",
+    "west": "vadersrandomadditions:blocks/vaultdoor",
+    "particle": "vadersrandomadditions:blocks/vaultdoor"
+  }
+}

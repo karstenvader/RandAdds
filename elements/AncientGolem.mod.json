@@ -1,0 +1,108 @@
+{
+  "_fv": 5,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Ancient Golem",
+    "mobLabel": "",
+    "mobModelTexture": "ancient_golem.png",
+    "mobModelName": "ModelIronGolem",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 5.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13434727,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": true,
+    "bossBarColor": "PURPLE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "movementSpeed": 0.3,
+    "trackingRange": 64,
+    "health": 175,
+    "xpAmount": 50,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "CUSTOM:VaultKey"
+    },
+    "livingSound": {
+      "value": "block.portal.ambient"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:ancientgolemhurt"
+    },
+    "deathSound": {
+      "value": "entity.irongolem.death"
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "PORTAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 1.9,
+    "particleAmount": 10,
+    "particleSpawningCondition": "ALWAYS",
+    "onMobTickUpdate": {
+      "name": "AncientGolemTick"
+    },
+    "hasAI": true,
+    "aiBase": "IronGolem",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"273\" y=\"78\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 30,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

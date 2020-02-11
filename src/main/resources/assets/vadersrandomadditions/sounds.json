@@ -1,0 +1,11 @@
+{
+  "ancientgolemhurt": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "vadersrandomadditions:ancient_golem_ouch",
+        "stream": false
+      }
+    ]
+  }
+}

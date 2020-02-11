@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "up": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "north": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "east": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "south": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "west": "vadersrandomadditions:blocks/obs_brick_smooth",
+    "particle": "vadersrandomadditions:blocks/obs_brick_smooth"
+  }
+}
